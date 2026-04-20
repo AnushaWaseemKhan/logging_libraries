@@ -26,8 +26,7 @@ datasets
 accelerate
 torch
 
-# Optional (used by many HF scripts)
+
 scikit-learn
 
-# Testing (optional)
-pytest
+
