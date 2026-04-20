@@ -1,7 +1,10 @@
-# Core experiment
-codecarbon
-pandas
+# Core
 numpy
+pandas
+
+# Energy measurement
+codecarbon
+
 # Logging libraries
 loguru
 structlog
@@ -10,7 +13,21 @@ aiologger
 picologging
 logbook
 eliot
+
+# Async / file logging
 aiofiles
-# Eliot dependency (sometimes not auto-installed)
+
+# Eliot dependency
 zope.interface
+
+# Hugging Face / ML
+transformers
+datasets
+accelerate
+torch
+
+# Optional (used by many HF scripts)
+scikit-learn
+
+# Testing (optional)
 pytest
