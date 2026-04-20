@@ -1,0 +1,16 @@
+# Core experiment
+codecarbon
+pandas
+numpy
+# Logging libraries
+loguru
+structlog
+python-json-logger
+aiologger
+picologging
+logbook
+eliot
+aiofiles
+# Eliot dependency (sometimes not auto-installed)
+zope.interface
+pytest

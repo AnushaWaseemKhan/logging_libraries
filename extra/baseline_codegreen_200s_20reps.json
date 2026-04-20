@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python3",
+    "-c",
+    "import time; time.sleep(200)"
+  ],
+  "backend": "NEMB (native energy measurement)",
+  "runs": 20,
+  "outliers_removed": 1,
+  "energy_joules": {
+    "mean": 4043.9675365789467,
+    "std": 18.95723552200336,
+    "min": 3975.1380169999993,
+    "max": 4073.180429,
+    "ci95": [
+      4034.6996298390454,
+      4053.235443318848
+    ],
+    "cv_percent": 0.47
+  },
+  "time_seconds": {
+    "mean": 200.03899751389872,
+    "std": 0.010820497613748177,
+    "min": 200.0185587770029,
+    "max": 200.05000616100006
+  },
+  "power_watts": 20.22,
+  "budget_exceeded": false,
+  "domains": {
+    "psys": 4040.526061,
+    "package-0": 1682.231362,
+    "core": 235.176421,
+    "dram": 201.694891,
+    "uncore": 135.811136
+  }
+}

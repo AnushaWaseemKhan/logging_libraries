@@ -1,0 +1,7 @@
+rate,best_library_at_this_rate,avg_net_energy_j
+0.01,picologging,0.17469790857994666
+0.1,picologging,0.21470869439197032
+1.0,picologging,1.291215483999963
+10.0,stdlib,5.930423895123999
+100.0,picologging,34.30294904270795
+1000.0,picologging,286.94134056016003

@@ -1,0 +1,7 @@
+,logbook,loguru,picologging,pythonjsonlogger,stdlib,structlog
+logbook,1.0,1.0,1.0,1.0,1.0,1.0
+loguru,1.0,1.0,1.0,1.0,1.0,1.0
+picologging,1.0,1.0,1.0,1.0,1.0,1.0
+pythonjsonlogger,1.0,1.0,1.0,1.0,1.0,1.0
+stdlib,1.0,1.0,1.0,1.0,1.0,1.0
+structlog,1.0,1.0,1.0,1.0,1.0,1.0

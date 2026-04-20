@@ -1,0 +1,7 @@
+rate,n_blocks,friedman_chi2,p_value,kendalls_w,lowest_mean_lib,lowest_mean_energy_j,best_avg_rank_lib,best_avg_rank,interpretation
+0.01,8,6.285714285714278,0.2794019415494922,0.15714285714285695,picologging,0.17137355031994161,picologging,2.625,No significant difference
+0.1,8,25.5,0.00011153344343393171,0.6375,pythonjsonlogger,0.14146223396497248,pythonjsonlogger,1.5,Significant difference exists
+1.0,8,29.428571428571416,1.9103767908248836e-05,0.7357142857142854,picologging,1.3314901910499657,picologging,1.25,Significant difference exists
+10.0,8,36.14285714285714,8.893183667528416e-07,0.9035714285714285,stdlib,6.213431258740002,stdlib,1.375,Significant difference exists
+100.0,8,36.85714285714283,6.397681853835034e-07,0.9214285714285708,picologging,34.221116211669965,picologging,1.0,Significant difference exists
+1000.0,8,38.928571428571416,2.454763504872868e-07,0.9732142857142854,picologging,287.84374332125503,picologging,1.0,Significant difference exists

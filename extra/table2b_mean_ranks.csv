@@ -1,0 +1,7 @@
+lib,mean_rank
+picologging,2.35
+stdlib,2.783333333333333
+pythonjsonlogger,3.1666666666666665
+loguru,3.5
+structlog,4.366666666666666
+logbook,4.833333333333333

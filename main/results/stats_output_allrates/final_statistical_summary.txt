@@ -1,0 +1,42 @@
+FINAL STATISTICAL SUMMARY
+============================================================
+
+PER-RATE ANALYSIS:
+Rate=0.01: p=0.279402, Kendall_W=0.1571, LowestMean=picologging (0.1714 J), BestAvgRank=picologging (2.6250), Interpretation=No significant difference
+Rate=0.1: p=0.000112, Kendall_W=0.6375, LowestMean=pythonjsonlogger (0.1415 J), BestAvgRank=pythonjsonlogger (1.5000), Interpretation=Significant difference exists
+Rate=1.0: p=0.000019, Kendall_W=0.7357, LowestMean=picologging (1.3315 J), BestAvgRank=picologging (1.2500), Interpretation=Significant difference exists
+Rate=10.0: p=0.000001, Kendall_W=0.9036, LowestMean=stdlib (6.2134 J), BestAvgRank=stdlib (1.3750), Interpretation=Significant difference exists
+Rate=100.0: p=0.000001, Kendall_W=0.9214, LowestMean=picologging (34.2211 J), BestAvgRank=picologging (1.0000), Interpretation=Significant difference exists
+Rate=1000.0: p=0.000000, Kendall_W=0.9732, LowestMean=picologging (287.8437 J), BestAvgRank=picologging (1.0000), Interpretation=Significant difference exists
+
+OVERALL ANALYSIS ACROSS ALL RATES:
+Overall Friedman chi-square = 71.4048
+Overall p-value = 0.000000
+Overall Kendall's W = 0.2975
+
+OVERALL RANKING (LOWER AVG RANK = BETTER):
+1. picologging | Avg Rank = 2.3125 | Overall Mean Net Energy = 56.2845 J
+2. stdlib | Avg Rank = 2.7500 | Overall Mean Net Energy = 87.2462 J
+3. pythonjsonlogger | Avg Rank = 3.1042 | Overall Mean Net Energy = 100.9019 J
+4. loguru | Avg Rank = 3.3958 | Overall Mean Net Energy = 84.5216 J
+5. structlog | Avg Rank = 4.5000 | Overall Mean Net Energy = 104.1606 J
+6. logbook | Avg Rank = 4.9375 | Overall Mean Net Energy = 108.7103 J
+
+BEST OVERALL LIBRARY: picologging
+
+OVERALL POST-HOC (WILCOXON + HOLM):
+logbook vs pythonjsonlogger | p_raw = 0.000000 | p_holm = 0.000000 | significant = True | lower_median_lib = pythonjsonlogger
+logbook vs stdlib | p_raw = 0.000000 | p_holm = 0.000000 | significant = True | lower_median_lib = stdlib
+stdlib vs structlog | p_raw = 0.000000 | p_holm = 0.000000 | significant = True | lower_median_lib = stdlib
+pythonjsonlogger vs stdlib | p_raw = 0.000004 | p_holm = 0.000051 | significant = True | lower_median_lib = stdlib
+pythonjsonlogger vs structlog | p_raw = 0.000005 | p_holm = 0.000056 | significant = True | lower_median_lib = pythonjsonlogger
+logbook vs picologging | p_raw = 0.000009 | p_holm = 0.000093 | significant = True | lower_median_lib = picologging
+logbook vs loguru | p_raw = 0.000012 | p_holm = 0.000112 | significant = True | lower_median_lib = logbook
+loguru vs picologging | p_raw = 0.000074 | p_holm = 0.000590 | significant = True | lower_median_lib = picologging
+picologging vs structlog | p_raw = 0.000110 | p_holm = 0.000768 | significant = True | lower_median_lib = picologging
+logbook vs structlog | p_raw = 0.000616 | p_holm = 0.003697 | significant = True | lower_median_lib = structlog
+picologging vs stdlib | p_raw = 0.000759 | p_holm = 0.003796 | significant = True | lower_median_lib = stdlib
+picologging vs pythonjsonlogger | p_raw = 0.004198 | p_holm = 0.016793 | significant = True | lower_median_lib = pythonjsonlogger
+loguru vs structlog | p_raw = 0.036993 | p_holm = 0.110979 | significant = False | lower_median_lib = structlog
+loguru vs pythonjsonlogger | p_raw = 0.315387 | p_holm = 0.630774 | significant = False | lower_median_lib = pythonjsonlogger
+loguru vs stdlib | p_raw = 0.650945 | p_holm = 0.650945 | significant = False | lower_median_lib = stdlib

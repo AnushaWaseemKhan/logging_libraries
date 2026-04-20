@@ -1,0 +1,54 @@
+{
+  "command": [
+    "python",
+    "/home/sqm-research-lab/Downloads/logging_energy-main/main/core/codegreen.py",
+    "--cg-worker",
+    "--lib-name",
+    "stdlib",
+    "--message",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "--level-name",
+    "debug",
+    "--output",
+    "console",
+    "--log-path",
+    "None",
+    "--level-value",
+    "10",
+    "--mode",
+    "rate",
+    "--target-logs",
+    "200",
+    "--sleep-time",
+    "0.999981"
+  ],
+  "backend": "NEMB (native energy measurement)",
+  "runs": 5,
+  "outliers_removed": 0,
+  "energy_joules": {
+    "mean": 3345.3184624,
+    "std": 29.82606896332691,
+    "min": 3303.818140999998,
+    "max": 3374.6143470000006,
+    "ci95": [
+      3308.2904434509637,
+      3382.3464813490364
+    ],
+    "cv_percent": 0.89
+  },
+  "time_seconds": {
+    "mean": 200.23890759949995,
+    "std": 0.0017544926813142685,
+    "min": 200.23754025200014,
+    "max": 200.2682974319996
+  },
+  "power_watts": 16.71,
+  "budget_exceeded": false,
+  "domains": {
+    "psys": 3345.318462,
+    "package-0": 1444.779077,
+    "core": 125.26235,
+    "dram": 124.075708,
+    "uncore": 0.023572
+  }
+}

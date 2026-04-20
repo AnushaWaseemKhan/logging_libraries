@@ -1,0 +1,9 @@
+rate,1.0,1.0,1.0,1.0,1.0,1.0,1000.0,1000.0,1000.0,1000.0,1000.0,1000.0
+lib,logbook,loguru,picologging,pythonjsonlogger,stdlib,structlog,logbook,loguru,picologging,pythonjsonlogger,stdlib,structlog
+size,,,,,,,,,,,,
+64,3,3,3,3,3,3,3,3,3,3,3,3
+512,3,3,3,3,3,3,3,3,3,3,3,3
+1024,3,3,3,3,3,3,3,3,3,3,3,3
+1536,3,3,3,3,3,3,3,3,3,3,3,3
+2048,3,3,3,3,3,3,3,3,3,3,3,3
+8192,3,3,3,3,3,3,3,3,3,3,3,3
