@@ -100,7 +100,7 @@ def run_mode(mode):
 #Select mode of experiment
 def run():
     outs = [
-        #run_mode("fixed_rate"),
+        run_mode("fixed_rate"),
        #  run_mode("fixed_messages"),
         run_mode("fixed_size"),
     ]
