@@ -1,3 +1,4 @@
+Note: This repository will remain public until May 1st.
 # Energy Benchmarking of Python Logging Libraries
 
 This project measures and compares the **energy consumption** of different Python logging libraries using CodeCarbon.
